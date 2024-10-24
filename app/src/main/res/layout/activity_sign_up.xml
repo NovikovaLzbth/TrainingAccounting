@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="433dp"
+        android:layout_height="916dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/records" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="96dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#aace3b"
+        android:tint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="411dp"
+        android:layout_height="298dp"
+        android:background="#D5D5D5"
+        android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:weekNumberColor="#D5D5D5"
+        android:weekSeparatorLineColor="#D5D5D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="195dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#A9CD3B"
+        android:text="Записаться"
+        android:textColor="#455318"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="150dp"
+        android:layout_height="357dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08:00"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10:00"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14:00"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16:00"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18:00"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20:00"
+            android:textColor="#D5D5D5" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/sportRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527">
+
+        <RadioButton
+            android:id="@+id/radioButtonGym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Спортивный зал"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бассейн"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBoxing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Зал для бокса"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGroupClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Зал для групповых занятий"
+            android:textColor="#D5D5D5" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGymnastics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гимнастический зал"
+            android:textColor="#D5D5D5" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
