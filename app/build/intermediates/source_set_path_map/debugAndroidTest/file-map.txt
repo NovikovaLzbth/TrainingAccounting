@@ -1,0 +1,6 @@
+com.example.trainingaccounting.test.app-core-1.5.0-0 C:\Users\novik\.gradle\caches\transforms-3\30568b380fcbd6c472dec8793871322c\transformed\core-1.5.0\res
+com.example.trainingaccounting.test.app-annotation-experimental-1.4.0-1 C:\Users\novik\.gradle\caches\transforms-3\fc4914657f3f7aaa79f7c013269829da\transformed\annotation-experimental-1.4.0\res
+com.example.trainingaccounting.test.app-androidTest-2 C:\Users\novik\AndroidStudioProjects\TrainingAccounting\app\build\generated\res\resValues\androidTest\debug
+com.example.trainingaccounting.test.app-mergeDebugAndroidTestResources-3 C:\Users\novik\AndroidStudioProjects\TrainingAccounting\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.trainingaccounting.test.app-mergeDebugAndroidTestResources-4 C:\Users\novik\AndroidStudioProjects\TrainingAccounting\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.trainingaccounting.test.app-merged_res-5 C:\Users\novik\AndroidStudioProjects\TrainingAccounting\app\build\intermediates\merged_res\debugAndroidTest
